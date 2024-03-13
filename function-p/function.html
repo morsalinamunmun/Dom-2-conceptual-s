@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind css link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <section class="flex gap-10">
+        <div>
+            <h3>Snow White</h3>
+            <p>Price: $ 50</p>
+            <button onclick="clickButton(this)" class="btn box-btn">ADD TO CART</button>
+        </div>
+        <div>
+            <h3>Black White</h3>
+            <p>Price: $ 30 </p>
+            <button onclick="clickButton(this)" class="btn box-btn">ADD TO CART</button>
+        </div>
+        <div>
+            <h3>lotus Yellow</h3>
+            <p>Price: $ 100 </p>
+            <button onclick="clickButton(this)" class="btn box-btn">ADD TO CART</button>
+        </div>
+        <div>
+            
+            <h1>Code: Hero</h1>
+            <div id="selected-item"></div>
+            <p>total: <span>00</span></p>
+            <p>discount: <span>00</span></p>
+            <p>Grand Total: <span>00</span></p>
+        </div>
+    </section>
+
+    <script src="function.js"></script>
+</body>
+</html>
